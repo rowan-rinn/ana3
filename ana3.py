@@ -56,7 +56,7 @@ class Nogermans:
                 self.health = health
                 return health
         if self.enemyweapon == 'sword' or self.enemyweapon == 'bow':
-            dmg = 20
+            dmg = 15
             if dmg >= self.health:
                 return death + 1 
             else:
