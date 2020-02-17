@@ -64,6 +64,15 @@ class Nogermans:
                 self.health = health
                 return health
 
+    def life_total_enemy(self, enemyhealth, weapon, deathenemy= 0):
+
+
+
+
+
+
+
+
 firstbattle = Nogermans(100,'sword','spear', 20)
 firstbattle.lifetotal_battle(100,'spear',0)
 
